@@ -4,7 +4,8 @@
   "description": "Famous minesweeper game",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib"
   },
   "repository": {
     "type": "git",
@@ -20,7 +21,8 @@
     "url": "https://github.com/travisjupp/minesweeper/issues"
   },
   "homepage": "https://github.com/travisjupp/minesweeper#readme",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.1"
   }
